@@ -11,5 +11,28 @@ class Student extends Person {
         myIdNum = idNum;
         myGPA = gpa;
     }    
+
+    //Getters
+    public String getIdNum() {
+        return myIdNum;
+    }
+
+    public double getGpa() {
+        return myGPA;
+    }
+
+    //Setters
+    public void setIdNum(String idNum) {
+        myIdNum = idNum;
+    }
+
+    public void setGpa(double gpa) {
+        myGPA = gpa;
+    }
+
+
+    public String toString() {
+        return super.toString() + ", ID: " + myIdNum + ", GPA: " + myGPA;
+    }
  }
     

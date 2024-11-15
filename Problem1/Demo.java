@@ -11,8 +11,11 @@ public class Demo {
         Student carson = new Student("Carson Thorne", 30, "M", "J283789", 3.5);
         System.out.println(carson);
 
-        Teacher george = new Teacher("Mr. George", 32, "M", "Computer Science", 50000);
+        Teacher george = new Teacher("Mr. George", 32, "M", "Chemistry", 50000);
         System.out.println(george);
+
+        CollegeStudent lauren = new CollegeStudent("Lauren Drohan", 26, "F", "J394284", 4, "Communications", 2);
+        System.out.println(lauren);
     }
 
 }

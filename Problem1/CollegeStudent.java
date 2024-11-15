@@ -14,5 +14,32 @@ public class CollegeStudent extends Student {
         
     }
 
+        //Getters
+        public String getMajor() {
+            return myMajor;
+        }
+
+        public int getYear() {
+            return myYear;
+        }
+
+        //Setters
+        public void setMajor(String major) {
+            myMajor = major;
+        }
+
+        public void setYear(int year) {
+            myYear = year;
+        }
+
+        //toString method
+        @Override
+        public String toString() {
+            return super.toString() + ", Major: " + myMajor + ", Year: " + myYear;
+         }
+
+
+    
+
 
 }

@@ -17,7 +17,7 @@ class Student extends Person {
         return myIdNum;
     }
 
-    public double getGpa() {
+    public double getGPA() {
         return myGPA;
     }
 
@@ -30,7 +30,7 @@ class Student extends Person {
         myGPA = gpa;
     }
 
-
+    @Override
     public String toString() {
         return super.toString() + ", ID: " + myIdNum + ", GPA: " + myGPA;
     }

@@ -17,7 +17,7 @@ public class Person {
 
 
     //Getters 
-    public String getNmae() {
+    public String getName() {
         return myName;
     }
 

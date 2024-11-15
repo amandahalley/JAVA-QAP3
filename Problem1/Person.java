@@ -44,4 +44,7 @@ public class Person {
 
 
     //toString method for print format
+    public String toString() {
+        return "Name: " + myName + ", age: " + myAge + ", Gender: " + myGender;
+     }
 }

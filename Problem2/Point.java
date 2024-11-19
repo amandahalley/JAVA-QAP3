@@ -16,5 +16,23 @@ public class Point {
         y = 0.0f;
     }
 
-    
+    //Getters for x & y
+    public float getX() {
+        return x;
+    }
+
+    public float getY() { 
+        return y;
+    }
+
+    //Setters for x & y
+    public void setX(float x) {
+        this.x = x;
+    }
+
+    public void setY(float y) {
+        this.y =y;
+    }
+
+
 }

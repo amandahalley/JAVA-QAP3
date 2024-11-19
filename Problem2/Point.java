@@ -34,5 +34,16 @@ public class Point {
         this.y =y;
     }
 
+    //Getter to retrieve both x and y
+    public float[] getXY() {
+        return new float[]{x, y};
+    }
+
+    //Setter to update both x & y
+    public void setXY(float x , float y) {
+        this.x = x;
+        this.y = y;
+    }
+
 
 }

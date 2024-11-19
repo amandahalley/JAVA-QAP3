@@ -24,10 +24,45 @@ public class MovablePoint extends Point {
 
 
     //Getters
+    public float getXSpeed() {
+        return xSpeed;
+    }
 
+    public float getYSpeed() {
+        return ySpeed;
+    }
 
     //Setters
+    public void setXSpeed(float xSpeed) {
+        this.xSpeed = xSpeed;
+    }
+    
+    public void setYSpeed(float ySpeed) {
+        this.ySpeed = ySpeed;
+    }
 
+    //getter and setter for both speeds 
+    
+    //Gets both x and y speed as an array
+    public float[] getSpeed() { 
+        return new float[]{xSpeed, ySpeed};
+    }
+
+    public void setSpeed(float xSpeed, float ySpeed) {
+        this.xSpeed = xSpeed;
+        this.ySpeed = ySpeed;
+    }
+
+    //To move point by updating coordinates based on speed
+    public MovablePoint move() {
+        setX(getX() + xSpeed);
+        setY(getY() + ySpeed);
+        return this;
+    }
 
     //toString
+    @Override
+    public String toString() {
+        return 
+    }
 }

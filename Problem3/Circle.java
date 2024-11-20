@@ -4,7 +4,7 @@ public class Circle extends Shape {
     private double radius;
 
 
-    //
+    //Constructor 
     public Circle(double radius) {
         // call constructor of Shape (super class) to set the name to circle
         super("Circle");

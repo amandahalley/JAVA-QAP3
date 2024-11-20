@@ -10,6 +10,15 @@ public class Demo {
     Ellipse ellipse = new Ellipse(3, 4);
     System.out.println(ellipse);
     
+    Triangle triangle = new Triangle(3,4,5);
+    System.out.println(triangle);
+
+    try{
+        Triangle triangle2 = new Triangle(2,2,6);
+        System.out.println(triangle2);
+    } catch (IllegalArgumentException e) {
+        System.out.println("Error:" + e.getMessage());
+    }
     
 
     }

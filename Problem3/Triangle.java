@@ -23,11 +23,13 @@ public class Triangle extends Shape {
 
     @Override
     public double getPerimeter(){
-        
+        return side1 + side2 + side3;
     }
 
     @Override
     public double getArea(){
-
+        //calculate semi-perimeter of triangle for area formula
+        double s = getPerimeter() / 2;
+        return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 }

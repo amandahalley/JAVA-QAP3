@@ -17,6 +17,6 @@ public abstract class Shape {
     //toString method to give representation of the shape
     @Override
     public String toString() {
-        return "Shape: " + name + "Perimeter:" +getPerimeter() + "Area: " + getArea();
+        return "Shape: " + name + " Perimeter: " +getPerimeter() + " Area: " + getArea();
     }
 }

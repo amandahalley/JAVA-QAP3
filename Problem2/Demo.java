@@ -15,10 +15,10 @@ public class Demo {
         System.out.println("MovablePoint:" + mpoint1);
 
         mpoint1.move();
-        System.out.println("Point after move: " + mpoint1 );
+        System.out.println("Point after first move: " + mpoint1 );
 
         mpoint1.setSpeed(1.0f, 1.3f);
         mpoint1.move();
-        System.out.println("Point after move 2: " + mpoint1);
+        System.out.println("Point after second move: " + mpoint1);
     }
 }

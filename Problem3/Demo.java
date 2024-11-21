@@ -20,6 +20,13 @@ public class Demo {
         System.out.println("Error:" + e.getMessage());
     }
     
+    EquilateralTriangle eTriangle = new EquilateralTriangle(2);
+    System.out.println(eTriangle);
 
+
+    //Create array of Shape objects 
+   
     }
+
+    
 }

@@ -10,7 +10,7 @@ public class Demo {
         for (Scalable shape : shapes) {
             shape.scale(factor);
         }
-
+        System.out.println();
         System.out.println("Shapes after scaling:");
         for (Scalable shape : shapes) {
             System.out.println(shape);

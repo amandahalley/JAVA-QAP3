@@ -25,8 +25,18 @@ public class Demo {
 
 
     //Create array of Shape objects 
-   
-    }
+   Shape[] shapes = new Shape[4];
 
-    
+   //Initialize array, with the different shape
+   shapes[0] = new Circle(10);
+   shapes[1] = new Ellipse(8,5);
+   shapes[2] = new Triangle(2,3,4);
+   shapes[3] = new EquilateralTriangle(4);
+
+   //Loops through array and prints the shapes details
+   for (Shape shape : shapes) {
+    System.out.println(shape);
+   }
+
+ }    
 }

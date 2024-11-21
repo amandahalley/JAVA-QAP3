@@ -1,8 +1,26 @@
 package Problem3;
 
-public class EquilateralTriangle extends Triangle {
+public class EquilateralTriangle extends Shape {
+    private double side;
+
+    //Constructor - initialize equilateral triangle with given side
     public EquilateralTriangle(double side) {
-        super(side, side, side); //call constructor of superclass (triangle) to obtain side
-        name = "Equilateral Triangle"; //asign name to shape
+        super("Equilateral Triangle");
+        this.side = side;
+    }
+
+    @Override
+    public double getPerimeter {
+
+    }
+
+    @Override
+    public double getArea {
+
+    }
+
+    @Override
+    public void scale(double factor) {
+        
     }
 }
